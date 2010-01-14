@@ -1,0 +1,382 @@
+/**
+ * Design CSS for Template Sandy
+ *
+ * @author neolao <neo@neolao.com>
+ * @author Michael Klier <chi@chimeric.de>
+ */
+* { 
+  font-family: Verdana, Helvetica, Arial, sans-serif; 
+  font-size: small; 
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #e0dfca url(images/body_background___width__.png) repeat-y center;
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+}
+
+div.dokuwiki {
+  float: none;
+  margin: 0;
+  padding: 0;
+}
+
+div.dokuwiki a {
+  color: #436976;
+  background-color: inherit;
+}
+
+div.dokuwiki a:hover {
+  color: #000 !important;
+  background-color: inherit;
+  text-decoration: none !important;
+}
+
+div.dokuwiki a img {
+  border: none;
+}
+
+div.dokuwiki #header {
+  background: #333 url(images/header_background___width__.png) repeat-y center;
+  height: 200px;
+  float: none;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+div.dokuwiki #header h1 {
+  margin: 0 auto 0 auto;
+  padding: 0;
+  height: 200px;
+  width: 900px;
+  background: #202020;
+  text-align: center;
+  line-height: 200px;
+  border: none;
+}
+
+div.dokuwiki #header h1 a {
+  color: #fff !important;
+  font-size: 200%;
+}
+
+div.dokuwiki #menu {
+  background: #000 url(images/menu_background.png) repeat-x;
+  color: __white__;
+  text-align: center;
+  padding: 2px 0 2px 0;
+}
+
+div.dokuwiki #menu ul {
+  margin: 0;
+  padding: 0;
+  border-left: solid 1px __black__;
+  border-right: solid 1px #666;
+}
+
+div.dokuwiki #menu ul li,
+div.dokuwiki #menu ul div.li {
+  display: inline !important;
+}
+
+div.dokuwiki #menu ul li {
+  border-left: solid 1px #666;
+  border-right: solid 1px __black__;
+}
+
+div.dokuwiki #menu ul li a {
+  padding: 0 1em 0 1em;
+  color: #fff !important;
+  border: none !important;
+  background-color: inherit;
+}
+
+div.dokuwiki #menu ul li a:hover {
+  color: #fff !important;
+  border: none !important;
+  background-color: #333;
+}
+
+div.dokuwiki div.breadcrumbs {
+  margin: 0;
+  padding: 0;
+  margin-top: 0.8em;
+  background: none !important;
+}
+
+div.dokuwiki div.toc {
+  margin-top: 7em !important;
+  font-size: 80%;
+  margin-bottom: 0.5em;
+}
+
+div.dokuwiki span.toc_open,
+div.dokuwiki span.toc_close {
+  border: 0.4em solid transparent;
+}
+
+div.dokuwiki span.toc_open {
+  border-top: 0.4em solid __white__;
+}
+
+div.dokuwiki span.toc_close {
+  border-bottom: 0.4em solid __white__;
+}
+
+div.dokuwiki ul.toc {
+  line-height: 120% !important;
+  list-style: none !important;
+  margin-left: 0.5em !important;
+}
+
+div.dokuwiki .toc li {
+  padding: 0 0.2em 0 0.5em !important;
+}
+
+div.dokuwiki .toc li a {
+  font-size: 0.8125em !important;
+  background: none!important;
+}
+
+div.dokuwiki div.tocheader {
+  background-color: #242424;
+  color: #fff !important;
+  font-size: 1em !important;
+  border-color: #242424;
+}
+
+div.dokuwiki div#toc__inside {
+  background-color: #f7f9fa;
+}
+
+div.dokuwiki div.page {
+  background-color: __white__;
+  padding: 0;
+  float: none !important;
+  width: __width__px;
+  margin: 0 auto 0 auto !important;
+  padding: 0 30px 0 30px !important;
+}
+
+div.dokuwiki div.page h1, 
+div.dokuwiki div.page h2, 
+div.dokuwiki div.page h3, 
+div.dokuwiki div.page h4, 
+div.dokuwiki div.page h5 {
+  clear: left;
+  margin: .5em 0 0 0;
+}
+
+div.dokuwiki div.page h1 a, 
+div.dokuwiki div.page h2 a, 
+div.dokuwiki div.page h3 a, 
+div.dokuwiki div.page h4 a, 
+div.dokuwiki div.page h5 a {
+  font-family: Georgia, "Times New Roman", serif !important;
+  color: inherit;
+  background-color: inherit;
+}
+
+div.dokuwiki div.page h1 {
+  background: transparent url(images/h1_bg.png) repeat-y right;
+  border-bottom: solid 1px #dbdbc5;
+  margin-left: 0em; 
+  padding: 5px;
+}
+
+div.dokuwiki div.page h1 a {
+  color: #fff !important;
+  font-size: 1.1em;
+  background-color: transparent;
+}
+
+div.dokuwiki div.page h2 {
+  background: transparent url(images/h2_bg.png) repeat-y right;
+  border-bottom: solid 1px #dbdbc5;
+  margin-left: 1em; 
+  padding: 2px 5px;
+}
+
+div.dokuwiki div.page h2 a {
+  color: #fff !important;
+  font-size: 0.9em;
+  background-color: transparent;
+}
+
+div.dokuwiki div.page h3 a,
+div.dokuwiki div.page h4 a,
+div.dokuwiki div.page h5 a {
+  color: #8c2121 !important;
+}
+
+div.level1 { margin: 1em 0 0 0; }
+div.level2 { margin: 1em 0 0 2em; }
+div.dokuwiki div.page h3 { margin-left: 2em; }
+div.level3 { margin: 1em 0 0 3em; }
+div.dokuwiki div.page h4 { margin-left: 3em; }
+div.level4 { margin: 1em 0 0 4em; }
+div.dokuwiki div.page h5 { margin-left: 4em; }
+div.level5 { margin: 1em 0 0 5em; }
+
+div.dokuwiki div.page pre.code,
+div.dokuwiki div.page pre.file {
+  padding: 5px;
+  overflow: auto;
+}
+
+div.dokuwiki div.page table {
+  margin: 5px 0 5px 0;
+  border-collapse: collapse;
+}
+
+div.dokuwiki div.page table th { padding: 2px 5px 2px 5px; }
+div.dokuwiki div.page table td { padding: 2px 5px 2px 5px; }
+div.dokuwiki div.page table td.rightalign { text-align: right; }
+div.dokuwiki div.page table td.centeralign { text-align: center; }
+div.dokuwiki div.page table td.leftalign { text-align: left; }
+
+div.dokuwiki div.page table { border: solid 1px #999; }
+div.dokuwiki div.page table th { border: solid 1px #999; background-color: #eee; }
+div.dokuwiki div.page table td { border: solid 1px #ccc; background-color: __white__; }
+div.dokuwiki div.page table tr:hover { background-color: #ffffe5; }
+
+
+div.dokuwiki div.page ol {
+  line-height: 1.5em;
+  margin: 0 0 .5em 1.5em;
+  padding: 0;
+}
+
+div.dokuwiki div.page ul {
+  line-height: 1.5em;
+  list-style-type: square;
+  margin: 0 0 .5em 1.5em;
+  padding: 0;
+  list-style-image: url(images/bullet.gif);
+}
+
+div.dokuwiki div.page pre.code,
+div.dokuwiki div.page pre.file {
+  border: 1px solid #acacbb;
+  border-left: solid 3px #acacbb;
+  background-color: #f7f9fa;
+  color: inherit;
+}
+
+div.dokuwiki dl.code dt,
+div.dokuwiki dl.file dt {
+  background-color: #f7f9fa;
+  border-bottom: none;
+}
+
+div.dokuwiki div.page code,
+div.dokuwiki div.page pre.code, 
+div.dokuwiki div.page pre.file, 
+div.dokuwiki div.page pre.code *,
+div.dokuwiki div.page pre.file * {
+  font-size: 1em;
+  font-family: "Courier New",Courier,monospace;
+}
+
+div.dokuwiki div.page input {
+  border: solid 1px #8cacbb;
+}
+div.dokuwiki div.page input:hover {
+  border: solid 1px __black__;
+}
+
+div.dokuwiki #footer {
+  background-color: #dfdec9;
+  color: __black__;
+  clear: both;
+  width: __footer__px;
+  margin: 1em auto 0 auto;
+  padding: 1em 10px 1em 10px;
+}
+
+div.dokuwiki #footer ul {
+  margin: 0 0 .5em 0;
+  padding: 0;
+}
+
+div.dokuwiki #footer ul li {
+  display: inline;
+}
+
+div.dokuwiki #footer li a.action {
+  padding: 2px 10px 2px 10px;
+}
+
+div.dokuwiki #footer form {
+  float: right;
+}
+
+div.dokuwiki #footer input {
+  margin-left: 2px;
+}
+
+div.dokuwiki #footer p {
+  margin: 0;
+}
+
+div.dokuwiki #footer li a.action {
+  border: solid 1px #8cacbb;
+  background-color: #efebe7;
+  color: __black__;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+div.dokuwiki #footer li a.action:hover {
+  border: solid 1px __black__;
+  background-color: #efebe7;
+  color: __black__;
+}
+
+div.dokuwiki #footer input {
+  border: solid 1px #8cacbb;
+}
+
+div.dokuwiki #footer input:hover {
+  border: solid 1px __black__;
+}
+
+div.dokuwiki div.user,
+div.dokuwiki div.doc {
+  padding: 0.5em;
+  font-size: 1em;
+  color: #8c2121;
+  margin-bottom: 0.5em;
+}
+
+div.insitu-footnote {
+  font-size: 90%;
+}
+
+div.dokuwiki #dw__search input.button {
+  background: none;
+  background-color: #efebe7;
+} 
+
+div.dokuwiki #qsearch__out {
+  display: none;
+}
+
+div.dokuwiki .meta {
+  display: block;
+}
+
+div.dokuwiki div.img_big,
+div.dokuwiki div.img_detail {
+  margin-top: 2em;
+}
+
+/**
+ * vim:ts=2:sw=2:et:enc=utf-8:
+ */

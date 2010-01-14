@@ -1,0 +1,15 @@
+/**
+ * Print CSS for Template Sandy
+ */
+div.dokuwiki #header, 
+div.dokuwiki #menu, 
+div.dokuwiki .toc, 
+div.dokuwiki #body_top, 
+div.dokuwiki .youarehere, 
+div.dokuwiki #body_bottom, 
+div.dokuwiki #footer {
+  display: none;
+}
+/**
+ * vim:ts=2:sw=2:et:enc=utf-8:
+ */
