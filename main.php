@@ -21,6 +21,7 @@ require_once(DOKU_TPLINC.'tpl_functions.php');
   </head>
   <body>
     <div class="dokuwiki">
+      <?php html_msgarea()?>
       <div id="header">
          <h1><?php tpl_link(wl(),$conf['title'],'name="dokuwiki__top" id="dokuwiki__top" accesskey="h" title="[ALT+H]"')?></h1>
       </div>
