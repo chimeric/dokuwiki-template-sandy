@@ -31,7 +31,11 @@ require_once(DOKU_TPLINC.'tpl_functions.php');
         <?php if($conf['breadcrumbs']){?>
         <div class="breadcrumbs">
           <?php tpl_breadcrumbs()?>
-          <?php //tpl_youarehere() //(some people prefer this)?>
+        </div>
+        <?php }?>
+        <?php if($conf['youarehere']){?>
+        <div class="breadcrumbs">
+          <?php tpl_youarehere() ?>
         </div>
         <?php }?>
 	    <?php flush(); ?>
