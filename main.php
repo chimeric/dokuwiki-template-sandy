@@ -65,7 +65,7 @@ require_once(DOKU_TPLINC.'tpl_functions.php');
         </ul>
         <ul>
           <?php 
-          foreach(array('revert', 'profile', 'admin') as $action) {
+          foreach(array('revert', 'profile', 'subscription', 'admin') as $action) {
             if(actionOK($action)) {
           ?>
             <li><?php tpl_actionlink($action)?></li>
